@@ -1,0 +1,74 @@
+h1 {
+  font-family: "Sour Gummy", sans-serif;
+  font-weight: 700;
+  color: #fb6f92;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("./bg-cat.png");
+  background-size: cover;
+  font-family: "Sour Gummy", sans-serif;
+  min-height: 100vh;
+}
+
+.badge-alta {
+  background-color: #fb6f92;
+  color: #ffffff;
+  min-width: 80px;
+  text-align: center;
+  padding: 0.4rem 0.75rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  border-radius: 5px;
+}
+
+.badge-media {
+  background-color: #fae588;
+  color: #ffffff;
+  min-width: 80px;
+  text-align: center;
+  padding: 0.4rem 0.75rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  border-radius: 5px;
+}
+
+.badge-baixa {
+  background-color: #7faa99;
+  color: #ffffff;
+  min-width: 80px;
+  text-align: center;
+  padding: 0.4rem 0.75rem;
+  font-weight: 600;
+  font-size: 0.85rem;
+  border-radius: 5px;
+}
+
+.btn-add {
+  background-color: #af8bcf;
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.btn-add:hover {
+  background-color: #b185db;
+  color: #ffffff;
+}
+
+.btn-finish {
+  background-color: #709775;
+  color: #ffffff;
+}
+
+.btn-finish:hover {
+  background-color: #415d43;
+  color: #ffffff;
+}
